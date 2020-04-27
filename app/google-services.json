@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "426022510150",
+    "firebase_url": "https://marketproject-ef842.firebaseio.com",
+    "project_id": "marketproject-ef842",
+    "storage_bucket": "marketproject-ef842.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426022510150:android:f3c3c4a2e0d7553e64b447",
+        "android_client_info": {
+          "package_name": "com.ilies.daily.marketproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426022510150-7odeoomjbfrqpcen80qvec0lsapv862m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ilies.daily.marketproject",
+            "certificate_hash": "9dc5861ba1d1ffcfbbef74b17238a9f8f7663477"
+          }
+        },
+        {
+          "client_id": "426022510150-c4sfef39n46ihbbnbdrrsvj1uvdgrlq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw4CsEvx686oE1nWkQq1HyD4H4wY31LCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426022510150-c4sfef39n46ihbbnbdrrsvj1uvdgrlq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

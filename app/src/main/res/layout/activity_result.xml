@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#f1f2f6"
+    tools:context=".result">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="résultat : " />
+
+    <LinearLayout
+
+        android:layout_margin="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginBottom="10dp"
+            android:text="id"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/tvmarque"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginBottom="10dp"
+            android:text="marque"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/tvnom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginBottom="10dp"
+            android:text="nom"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/tvvolume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginBottom="10dp"
+            android:text="volume"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/tvid_producteur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginBottom="10dp"
+            android:text="id_producteur"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/tvprix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginBottom="10dp"
+            android:text="prix"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/tvpoids"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginBottom="10dp"
+            android:text="poids"
+            android:textSize="23dp" />
+    </LinearLayout>
+</LinearLayout>
